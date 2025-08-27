@@ -14,6 +14,10 @@ public class DemoTry
 		Email = email;
 	}
 
+	public DemoTry()
+	{
+	}
+
 	public override string ToString()
 	{
 		return $"Name: {Name}, Age: {Age}, Email: {Email}";

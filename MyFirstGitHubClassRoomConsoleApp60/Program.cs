@@ -3,5 +3,4 @@ using static System.Formats.Asn1.AsnWriter;
 using System.Xml.Linq;
 Console.WriteLine("Hello, World!");
 
-DemoTry person = new DemoTry{Name = "Tobias", Age = 24};
-Console.WriteLine(DemoTry);
+DemoTry person = new() { Name = "Tobias", Age = 24 };
